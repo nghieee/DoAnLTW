@@ -16,6 +16,10 @@ ul {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*HEADER*/
 .header-top {
     background: #0272bc;
@@ -23,6 +27,7 @@ ul {
 }
 
 .container {
+    display: flex;
     width: 1320px;
     padding-right: 15px;
     padding-left: 15px;

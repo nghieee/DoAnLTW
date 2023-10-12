@@ -67,6 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AppData\Img\ForMasterLayout\ft_app-store.png" />
+    <Content Include="AppData\Img\ForMasterLayout\ft_google-store.png" />
+    <Content Include="AppData\Img\ForMasterLayout\ft_icon-facebook.png" />
+    <Content Include="AppData\Img\ForMasterLayout\ft_icon-lazada.png" />
+    <Content Include="AppData\Img\ForMasterLayout\ft_icon-pinterest.png" />
+    <Content Include="AppData\Img\ForMasterLayout\ft_icon-shopee.png" />
+    <Content Include="AppData\Img\ForMasterLayout\ft_icon-tiki.png" />
+    <Content Include="AppData\Img\ForMasterLayout\ft_icon-twitter.png" />
+    <Content Include="AppData\Img\ForMasterLayout\ft_icon-youtube.png" />
+    <Content Include="AppData\Img\ForMasterLayout\ft_icon-zalo.png" />
+    <Content Include="AppData\Img\ForMasterLayout\ft_logo-bct.png" />
+    <Content Include="AppData\Img\ForMasterLayout\ft_payment.png" />
     <Content Include="MasterLayout\MasterLayout.html" />
     <Content Include="MasterLayout\MasterLayoutCSS.css" />
     <Content Include="Web.config" />
@@ -75,6 +87,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AppData\Font\Quicksand Bold Oblique.otf" />
+    <Content Include="AppData\Font\Quicksand Bold.otf" />
+    <Content Include="AppData\Font\Quicksand Book.otf" />
+    <Content Include="AppData\Font\Quicksand-Bold.ttf" />
+    <Content Include="AppData\Font\Quicksand-Light.ttf" />
+    <Content Include="AppData\Font\Quicksand-Medium.ttf" />
+    <Content Include="AppData\Font\Quicksand-Regular.ttf" />
+    <Content Include="AppData\Font\Quicksand-SemiBold.ttf" />
+    <Content Include="AppData\Font\Quicksand-VariableFont_wght.ttf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -83,6 +104,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -1,4 +1,9 @@
-﻿* {
+@font-face {
+    font-family: 'Quicksand';
+    src: url(/AppData/Font/Quicksand-Regular.ttf) format('truetype');
+}
+
+* {
     font-family: 'Quicksand', sans-serif !important;
     margin: 0;
     padding: 0;
@@ -18,6 +23,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: #000000;
 }
 
 /*HEADER*/
@@ -27,7 +33,6 @@ a {
 }
 
 .container {
-    display: flex;
     width: 1320px;
     padding-right: 15px;
     padding-left: 15px;
@@ -53,11 +58,14 @@ a {
     position: relative;
 }
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer-title {
-    text-transform: uppercase;
     font-size: 18px;
     padding-bottom: 15px;
-    position: relative;
 }
 
 .line {
@@ -77,3 +85,34 @@ a {
     color: #999;
 }
 
+.list-social li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.list-social li img {
+    border-radius: 6px;
+    height: 32px;
+}
+
+.list-social .footer-social-icon {
+}
+
+.app-download h3 {
+    display: inline-block;
+    color: #222222;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 12px;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.copy-right {
+    text-align: center;
+}
+
+.copy-right p {
+    margin-top: 10px;
+}

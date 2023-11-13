@@ -80,6 +80,8 @@
     <Content Include="AppData\Img\ForMasterLayout\ft_logo-bct.png" />
     <Content Include="AppData\Img\ForMasterLayout\ft_payment.png" />
     <Content Include="AppData\Img\ForMasterLayout\hd_page-logo.png" />
+    <Content Include="HomePage\HomePage.html" />
+    <Content Include="HomePage\HomePageCSS.css" />
     <Content Include="MasterLayout\MasterLayout.html" />
     <Content Include="MasterLayout\MasterLayoutCSS.css" />
     <Content Include="Web.config" />
